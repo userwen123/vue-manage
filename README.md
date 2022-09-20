@@ -3,35 +3,15 @@
 #### 介绍
 通用后台管理项目
 
-#### 软件架构
-软件架构说明
+具体完成了用户登录、系统首页和用户管理页面
 
+使用全局路由守卫，根据token值，完成不同的账号用户登录权限的校验，登录展示不同的系统目录
 
-#### 安装教程
+首页主要是使用element-UI 组件库和e-charts，绘制各种图表
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+用户管理页面使用element-ui组件库，完成用户列表的管理，包括用户的增删改查、用户列表分页和面包屑功能，显示当前页面的路径，快速返回之前的任意页面。
 
-#### 使用说明
+封装axios发送数据请求，使用vuex完成组件间通信，进行组件间数据共享，使用路由完成页面跳转
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+使用mock模拟后端部分数据
 
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
